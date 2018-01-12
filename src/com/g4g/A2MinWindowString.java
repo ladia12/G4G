@@ -3,6 +3,7 @@ package com.g4g;
 import java.util.HashMap;
 import java.util.Map;
 
+//https://www.geeksforgeeks.org/smallest-window-contains-characters-string/
 public class A2MinWindowString {
     void runProgram() {
         String str = "aabcbcdbca";
