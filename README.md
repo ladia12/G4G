@@ -1,5 +1,5 @@
 # G4G
-======
 
-A1 Find Minimum Depth of a Binary Tree
-A2 Smallest window that contains all characters of string itself
+_**A1**_ `Find Minimum Depth of a Binary Tree`
+
+**_A2_** `Smallest window that contains all characters of string itself`
