@@ -7,3 +7,5 @@ _**A1**_ `Find Minimum Depth of a Binary Tree` **Tags:** Tree
 **_A3_** `Inorder Tree Traversal without Recursion` **Tags:** Tree, Stack
 
 **_A4_** `Diameter of a Binary Tree` **Tags:** Tree
+
+**_A5_** `Root to leaf path sum equal to a given number` **Tags:** Tree

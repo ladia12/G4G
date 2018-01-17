@@ -13,7 +13,10 @@ public class Main {
 //        A3IotWithoutStack obj3 = new A3IotWithoutStack();
 //        obj3.runProgram();
 
-        A4DiameterBT obj4 = new A4DiameterBT();
-        obj4.runProgram();
+//        A4DiameterBT obj4 = new A4DiameterBT();
+//        obj4.runProgram();
+
+        A5RootToLeaf obj5 = new A5RootToLeaf();
+        obj5.runProgram();
     }
 }
