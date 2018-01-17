@@ -20,6 +20,7 @@ public class A3IotWithoutStack {
     }
 
     private void inOrderTraversal(TreeNode node) {
+        if(node == null) return;
         Stack<TreeNode> stack = new Stack<>();
         //Go to left child till it is possible
         while(node != null || !stack.isEmpty()) {

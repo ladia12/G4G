@@ -10,7 +10,10 @@ public class Main {
 //        A2MinWindowString obj2 = new A2MinWindowString();
 //        obj2.runProgram();
 
-        A3IotWithoutStack obj3 = new A3IotWithoutStack();
-        obj3.runProgram();
+//        A3IotWithoutStack obj3 = new A3IotWithoutStack();
+//        obj3.runProgram();
+
+        A4DiameterBT obj4 = new A4DiameterBT();
+        obj4.runProgram();
     }
 }

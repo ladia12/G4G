@@ -5,3 +5,5 @@ _**A1**_ `Find Minimum Depth of a Binary Tree` **Tags:** Tree
 **_A2_** `Smallest window that contains all characters of string itself` **Tags:** String, Sliding Window
 
 **_A3_** `Inorder Tree Traversal without Recursion` **Tags:** Tree, Stack
+
+**_A4_** `Diameter of a Binary Tree` **Tags:** Tree
