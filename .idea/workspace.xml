@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a0cc22a-a9a3-414f-86f4-8a70f29aa307" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A4DiameterBT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/G4G/com/g4g/A2MinWindowString.class" afterPath="$PROJECT_DIR$/out/production/G4G/com/g4g/A2MinWindowString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/G4G/com/g4g/Main.class" afterPath="$PROJECT_DIR$/out/production/G4G/com/g4g/Main.class" />
+    <list default="true" id="8a0cc22a-a9a3-414f-86f4-8a70f29aa307" name="Default" comment="Diameter of Binary Tree">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/g4g/A3IotWithoutStack.java" afterPath="$PROJECT_DIR$/src/com/g4g/A3IotWithoutStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/g4g/Main.java" afterPath="$PROJECT_DIR$/src/com/g4g/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -266,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516026483372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Diameter of Binary Tree">
+      <created>1516186465117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516186465117</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Readme update" />
     <MESSAGE value="Inorder traversal without stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inorder traversal without stack" />
+    <MESSAGE value="Diameter of Binary Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diameter of Binary Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
