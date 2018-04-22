@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a0cc22a-a9a3-414f-86f4-8a70f29aa307" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A10GraphBfs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A11GraphDfs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A12GraphTopoSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A13PrimsMST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A14DetectCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A15DetectCycleUndirected.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A16Dijkstra.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A17GasProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A6KSumPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A7StockBuyAndSell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A8LIS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/A9MaxDiff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/graph/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/graph/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/graph/GraphU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/graph/GraphW.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/g4g/util/graph/VertexD.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/G4G/com/g4g/util/TreeNode.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/g4g/util/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/g4g/util/tree/Node.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/G4G/com/g4g/Main.class" afterPath="$PROJECT_DIR$/out/production/G4G/com/g4g/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/g4g/A1RootToLeaf.java" afterPath="$PROJECT_DIR$/src/com/g4g/A1RootToLeaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/g4g/A5RootToLeaf.java" afterPath="$PROJECT_DIR$/src/com/g4g/A5RootToLeaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/g4g/Main.java" afterPath="$PROJECT_DIR$/src/com/g4g/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -348,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516188594545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Graph Problems added">
+      <created>1524399065221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524399065221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -391,7 +375,8 @@
     <MESSAGE value="Inorder traversal without stack" />
     <MESSAGE value="Diameter of Binary Tree" />
     <MESSAGE value="Root to leaf path is equal to a sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Root to leaf path is equal to a sum" />
+    <MESSAGE value="Graph Problems added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph Problems added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
