@@ -20,7 +20,7 @@ class A1RootToLeaf {
 
     private TreeNode constructTree() {
         TreeNode root = new TreeNode(1);
-//        root.left = new TreeNode(2);
+//        root.left = new Node(2);
         root.right = new TreeNode(3);
         root.right.right = new TreeNode(6);
         return root;

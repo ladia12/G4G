@@ -1,18 +1,18 @@
 package com.g4g;
 
-import com.g4g.util.TreeNode;
+import com.g4g.util.tree.Node;
 
 // https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/
 class A5RootToLeaf {
 
 
     void runProgram() {
-        TreeNode root = constructTree();
-        boolean ans =  rootToLeaf(root, 6);
+        Node root = constructTree();
+        boolean ans =  rootToLeaf(root, 11);
         System.out.println(ans);
     }
 
-    private boolean rootToLeaf(TreeNode root, int num) {
+    private boolean rootToLeaf(Node root, int num) {
 
         if(root == null && num == 0) return true;
 
@@ -25,14 +25,14 @@ class A5RootToLeaf {
     }
 
 
-    private TreeNode constructTree() {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.right = new TreeNode(4);
-        root.right.left = new TreeNode(5);
-        root.right.right = new TreeNode(6);
-        root.right.right.right = new TreeNode(7);
+    private Node constructTree() {
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.left.left = new Node(3);
+        root.right = new Node(4);
+        root.right.left = new Node(5);
+        root.right.right = new Node(6);
+        root.right.right.right = new Node(7);
         return root;
     }
 }
