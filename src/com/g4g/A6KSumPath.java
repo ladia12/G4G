@@ -2,16 +2,46 @@ package com.g4g;
 
 import com.g4g.util.tree.Node;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
 public class A6KSumPath {
     void runProgram() {
         Node root = constructTree();
-        boolean ans =  kSumPath(root, 5);
-        System.out.println(ans);
+        kSumPath(root, 5, new ArrayList<Integer>());
     }
 
-    private boolean kSumPath(Node root, int k) {
-        return false;
+    private void kSumPath(Node root, int k, List<Integer> path) {
+        if(root == null) return;
+
+        path.add(root.data);
+
+        //check left subtree
+        kSumPath(root.left, k, path);
+
+        //check right subtree
+        kSumPath(root.right, k, path);
+
+
+        //check if there is any ksum path upto current node
+        int sum = 0;
+        for(int i = path.size()-1; i>=0; i--) {
+            sum+= path.get(i);
+            if(sum == k) {
+                printSum(path, i);
+                break;
+            }
+        }
+
+        path.remove(path.size() -1);
+    }
+
+    private void printSum(List<Integer> path, int index) {
+        for(int i = index; i<path.size(); i++) {
+            System.out.print(path.get(i) + " ");
+        }
+        System.out.println();
     }
 
     private Node constructTree() {

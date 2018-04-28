@@ -19,8 +19,8 @@ public class Main {
 //        A5RootToLeaf obj5 = new A5RootToLeaf();
 //        obj5.runProgram();
 
-//        A6KSumPath obj6 = new A6KSumPath();
-//        obj6.runProgram();
+        A6KSumPath obj6 = new A6KSumPath();
+        obj6.runProgram();
 
 //        A7StockBuyAndSell obj7 = new A7StockBuyAndSell();
 //        obj7.runProgram();
@@ -52,7 +52,7 @@ public class Main {
 //        A16Dijkstra obj16 = new A16Dijkstra();
 //        obj16.runProgram();
 
-        A17GasProblem obj17 = new A17GasProblem();
-        obj17.runProblem();
+//        A17GasProblem obj17 = new A17GasProblem();
+//        obj17.runProblem();
     }
 }
